@@ -1,0 +1,131 @@
+name: sejusp_registros_envolvidos_lgbtqiafobia
+owner_org: ''
+profile: data-package
+resources:
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: envolvidos_eventos_lgbtqiafobia
+    path: data/envolvidos_eventos_LGBTQIAfobia.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: id_ocorrencia
+          type: string
+        - name: data_hora_ocorrencia
+          type: datetime
+        - name: faixa_1_hora_fato
+          type: string
+        - name: mes
+          type: integer
+        - name: ano
+          type: integer
+        - name: dia_da_semana
+          type: string
+        - name: status_registro
+          type: string
+        - name: natureza_principal
+          type: string
+        - name: tentado_consumado_nat_principal
+          type: string
+        - name: causa_presumida
+          type: string
+        - name: meio_utilizado
+          type: string
+        - name: perimetro
+          type: string
+        - name: local_imediato
+          type: string
+        - name: bairro
+          type: string
+        - name: municipio_codigo
+          type: integer
+        - name: municipio_fato
+          type: string
+        - name: uf_sigla
+          type: string
+        - name: numero_envolvido_ocorrencia
+          type: integer
+        - name: conducao_a_delegacia
+          type: string
+        - name: tipo_envolvimento
+          type: string
+        - name: raca_etnia
+          type: string
+        - name: idade_aparente
+          type: geopoint
+        - name: sexo_codigo
+          type: string
+        - name: lgbtqia
+          type: string
+        - name: identidade_de_genero
+          type: string
+        - name: orientacao_sexual
+          type: string
+        - name: escolaridade
+          type: string
+        - name: relacao_vitima_autor
+          type: string
+        - name: bairro_envolvido
+          type: string
+        - name: municipio_envolvido
+          type: string
+        - name: uf_sigla_envolvido
+          type: string
+        - name: natureza_delito_envolvido
+          type: string
+        - name: tentado_consumado_delito_envolvido
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: registros_eventos_lgbtqiafobia
+    path: data/registros_eventos_LGBTQIAfobia.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: id_ocorrencia
+          type: string
+        - name: data_hora_ocorrencia
+          type: datetime
+        - name: faixa_1_hora_fato
+          type: string
+        - name: mes
+          type: integer
+        - name: ano
+          type: integer
+        - name: dia_da_semana
+          type: string
+        - name: status_registro
+          type: string
+        - name: natureza_principal
+          type: string
+        - name: tentado_consumado_nat_principal
+          type: string
+        - name: causa_presumida
+          type: string
+        - name: meio_utilizado
+          type: string
+        - name: perimetro
+          type: string
+        - name: local_imediato
+          type: string
+        - name: bairro
+          type: string
+        - name: municipio_codigo
+          type: integer
+        - name: municipio_fato
+          type: string
+        - name: uf_sigla
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+title: Sejusp_registros_envolvidos_lgbtqiafobia
