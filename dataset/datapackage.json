@@ -1,10 +1,9 @@
 {
   "name": "sejusp_registros_envolvidos_lgbtqiafobia",
-  "owner_org": "",
+  "owner_org": "secretaria-de-estado-de-justica-e-seguranca-publica-sejusp",
   "profile": "data-package",
   "resources": [
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -151,10 +150,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Envolvidos Eventos LGBTQIAFobia"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -237,8 +235,8 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Registros Eventos LGBTQIAFobia"
     }
   ],
-  "title": "Sejusp_registros_envolvidos_lgbtqiafobia"
+  "title": "Envolvidos e Registros Eventos LGBTQIAFobia - SEJUSP"
 }
