@@ -1,11 +1,10 @@
 {
   "version": "4.16.6",
-  "time": 0.846,
+  "time": 0.816,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -152,7 +151,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Envolvidos Eventos LGBTQIAFobia",
         "stats": {
           "hash": "66ac18bb9d04f5125921ab4a34d76a35",
           "bytes": 3259222,
@@ -160,7 +159,7 @@
           "rows": 8321
         }
       },
-      "time": 0.594,
+      "time": 0.564,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -190,7 +189,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -273,7 +271,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Registros Eventos LGBTQIAFobia",
         "stats": {
           "hash": "e034cbe8b0adc5e981bbeacbf93e991b",
           "bytes": 1100203,
